@@ -5,7 +5,7 @@
     <title>ulangan</title>
 </head>
 <body>
-    <h2>Daftar User</h2>
+    <h2>Rumah Sakit</h2>
     <table border="1" cellpadding="5" cellspacing="0">
         <tr>
             <th>ID</th>
