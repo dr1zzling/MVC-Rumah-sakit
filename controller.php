@@ -1,11 +1,10 @@
 <?php
-include "model.php";
+include_once "model.php";
 
-// Cek apakah ada parameter id di URL
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $users = getUserById($id); // ambil user berdasarkan id
+    $users = getUserById($id); 
 } else {
-    $users = getUsers(); // ambil semua user
+    $users = getUsers(); 
 }
 ?>
