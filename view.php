@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>ulangan</title>
+    <style>
+        table {
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-    <h2>Rumah Sakit</h2>
-    <table border="1" cellpadding="5" cellspacing="0">
+    <h2 style="text-align:center;">Rumah Sakit</h2>
+    <table border="1" cellpadding="13" cellspacing="0">
         <tr>
             <th>ID</th>
             <th>Nama</th>
