@@ -11,7 +11,6 @@
             <th>ID</th>
             <th>Nama</th>
             <th>Posisi</th>
-            <th>Posisi</th>
             <th>Deskripsi</th>
         </tr>
         <?php while($u = $users->fetch_assoc()) { ?>
